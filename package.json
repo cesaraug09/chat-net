@@ -1,0 +1,19 @@
+{
+  "name": "chat-net",
+  "version": "1.0.0",
+  "description": "ChatNet é uma mini rede social que permite aos usuários postar, adicionar amigos e enviar mensagens para outras pessoas. O projeto utiliza MySQL para o banco de dados e JavaScript para a lógica do frontend e backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3"
+  }
+}
