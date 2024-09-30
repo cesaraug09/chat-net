@@ -1,10 +1,10 @@
 # ChatNet
 
-ChatNet é uma mini rede social que permite aos usuários postar, adicionar amigos e enviar mensagens para outras pessoas. O projeto utiliza MongoDB para o banco de dados e JavaScript para a lógica do frontend e backend.
+ChatNet é uma mini rede social que permite aos usuários postar fotos, interagir em postagens , adicionar amigos e enviar mensagens para outras pessoas. O projeto utiliza MongoDB para o banco de dados e JavaScript para a lógica do frontend e backend.
 
 ## Funcionalidades
 
-- **Postagens**: Os usuários podem criar, visualizar e curtir postagens.
+- **Postagens**: Os usuários podem criar, visualizar, curtir e comentar em postagens.
 - **Adicionar Amigos**: Conecte-se com outros usuários.
 - **Mensagens Diretas**: Envie mensagens privadas para amigos.
 
