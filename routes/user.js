@@ -4,6 +4,8 @@ const mongoose = require("mongoose");
 require("../models/Usuario");
 const Usuario = mongoose.model("usuarios");
 
+// Rotas
+
 router.get('/login',(req, res)=>{
     res.render('authentication/login')
 })
