@@ -1,27 +1,31 @@
-<form action="/user/authenticationreg" method="post">
-    <h1>Cadastre-se</h1>
+<div class="center">
+    <div class="register">
+        <form action="/user/authenticationreg" method="post">
+            <h1>Cadastre-se</h1>
 
-    <br>
-    <input type="text" name="nome" placeholder="Nome">
-    <input type="text" name="sobrenome" placeholder="Sobrenome">
-    <br>
+            <br>
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="text" name="sobrenome" placeholder="Sobrenome">
+            <br>
 
-    <p>Gênero:</p>
-    <input type="radio" id="ipt-genero" name="masculino">Masculino
-    <input type="radio" id="ipt-genero" name="masculino">Feminino
-    <input type="radio" id="ipt-genero" name="masculino" checked >Não exibir
-    <p>Idade:</p>
-    <input type="date" name="dataNasc" id="ipt-data">
-    <br>
-    Seu nome de usuário:
-        <br><input type="text" name="username" placeholder="Nome de usuario"><br>
-    Sua senha:
-        <br><input type="password" name="password" placeholder="Nova senha"><br>
-    Por favor, repita sua senha:
-        <br><input type="password" name="confirmpassword" placeholder="Confirme a senha"><br>
+            <p>Gênero:</p>
+            <input type="radio" id="ipt-genero" name="masculino">Masculino
+            <input type="radio" id="ipt-genero" name="masculino">Feminino
+            <input type="radio" id="ipt-genero" name="masculino" checked >Não exibir
+            <p>Idade:</p>
+            <input type="date" name="dataNasc" id="ipt-data">
+            <br>
+            Seu nome de usuário:
+                <br><input type="text" name="username" placeholder="Nome de usuario"><br>
+            Sua senha:
+                <br><input type="password" name="password" placeholder="Nova senha"><br>
+            Por favor, repita sua senha:
+                <br><input type="password" name="confirmpassword" placeholder="Confirme a senha"><br>
 
 
-    <button id="btn">Logar!</button><br>
+            <button id="btn">Logar!</button><br>
 
-    Já possui uma conta? <a href="/user/login">Entrar!</a>
-</form>
+            Já possui uma conta? <a href="/user/login">Entrar!</a>
+        </form>
+    </div>
+</div>

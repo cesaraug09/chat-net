@@ -1,0 +1,28 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+/* Por enquanto a div container não está sendo útil, mas facilitará muito o trabalho no futuro */
+
+.container{
+    display: flex;
+    background: #f4f4f4f4;
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* As divs CONTAINERS e CENTER possuem o mesmo tamanho, AMBAS oculpam 100% da tela, mas só oque está dentro da div center será centralizada*/
