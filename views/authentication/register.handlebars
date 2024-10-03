@@ -1,4 +1,7 @@
 <div class="center">
+    {{#each erros}}
+        <div style="background: rgb(255, 145, 145);">{{texto}}</div><br> <!-- Textos vindo do arquivo user.js-->
+    {{/each}}
     <div class="register">
         <form action="/user/authenticationreg" method="post">
             <h1>Cadastre-se</h1>
@@ -9,9 +12,9 @@
             <br>
 
             <p>Gênero:</p>
-            <input type="radio" id="ipt-genero" name="masculino">Masculino
-            <input type="radio" id="ipt-genero" name="masculino">Feminino
-            <input type="radio" id="ipt-genero" name="masculino" checked >Não exibir
+            <input type="radio" id="ipt-genero" name="1">Masculino
+            <input type="radio" id="ipt-genero" name="2">Feminino
+            <input type="radio" id="ipt-genero" name="3" checked >Não exibir
             <p>Idade:</p>
             <input type="date" name="dataNasc" id="ipt-data">
             <br>
@@ -23,7 +26,7 @@
                 <br><input type="password" name="confirmpassword" placeholder="Confirme a senha"><br>
 
 
-            <button id="btn">Logar!</button><br>
+            <button id="btn">Criar Conta!</button><br>
 
             Já possui uma conta? <a href="/user/login">Entrar!</a>
         </form>

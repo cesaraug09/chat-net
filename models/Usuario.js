@@ -2,9 +2,12 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const Usuario = new Schema({
-    nome_completo: {
-        type: Array,
+    nome: {
+        type: String,
         require: true
+    },
+    sobrenome: {
+        type: String
     },
     idade: {
         type: Number
@@ -13,12 +16,16 @@ const Usuario = new Schema({
         type: String,
         require: true
     },
-    senha:{
+    password:{
         type: String,
         require: true
     },
     genero: {
-        Number
+        type: Number
+    },
+    date: {
+        type: Date,
+        default: Date.now()
     }
 })
 

@@ -44,8 +44,12 @@ app.use((req,res,next)=>{
     next();
 })
 
-app.get('/', function(req, res){
+app.get('/',(req, res) =>{
     res.render('splash/splash')
+})
+
+app.post('/profile',(req,res)=>{
+    res.send("pagina meth post")
 })
 
 // Rota para autentificação do usuario! login e registro
